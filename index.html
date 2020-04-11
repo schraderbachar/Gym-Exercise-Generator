@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <title>Gym Sheet</title>
+  </head>
+  <body>
+    <div id="app">
+      <h3>Core warmup</h3>
+     <!-- get random number for each of the lists (diff sizes) get two for brazos and abdominales-->
+     <ul>
+       <h3>pecho</h3>
+       <li>{{pecho1}}</li>
+       <li>{{pecho2}}</li>
+       <h3>Espalda</h3>
+       <li>{{espalda1}}</li>
+       <li>{{espalda2}}</li>
+       <h3>Piernas</h3>
+       <li>{{piernas1}}</li>
+       <li>{{piernas2}}</li>
+       <h3>Hombros</h3>
+       <li>{{hombros1}}</li>
+       <li>{{hombros2}}</li>
+       <h3>Abdominales</h3>
+       <li>{{abdominales1}}</li>
+       <li>{{abdominales2}}</li>
+       <h3>Brazos</h3>
+       <li>{{brazos1}}</li>
+       <li>{{brazos2}}</li>
+
+     </ul>
+     <!-- on the click action the picker method runs- fills the list above with the generated values-->
+     <button @click="picker">Empieza</button>
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
