@@ -59,26 +59,45 @@ const app = new Vue({
       /* the second set */
 
       var pechoNum2 = Math.floor(Math.random() * this.pecho.length);
+      /* to not get the same number */
+      while (pechoNum2 == pechoNum) {
+        pechoNum2 = Math.floor(Math.random() * this.pecho.length);
+      }
       this.pecho2 = this.pecho[pechoNum2];
       console.log(this.pecho2);
 
       var espaldaNum2 = Math.floor(Math.random() * this.espalda.length);
+      while (espaldaNum2 == espaldaNum) {
+        espaldaNum2 = Math.floor(Math.random() * this.espalda.length);
+      }
       this.espalda2 = this.espalda[espaldaNum2];
       console.log(this.espalda2);
 
       var piernasNum2 = Math.floor(Math.random() * this.piernas.length);
+      while (piernasNum2 == piernasNum) {
+        piernasNum2 = Math.floor(Math.random() * this.piernas.length);
+      }
       this.piernas2 = this.piernas[piernasNum2];
       console.log(this.piernas2);
 
       var hombrosNum2 = Math.floor(Math.random() * this.hombros.length);
+      while (hombrosNum2 == hombrosNum) {
+        hombrosNum2 = Math.floor(Math.random() * this.hombros.length);
+      }
       this.hombros2 = this.hombros[hombrosNum2];
       console.log(this.hombros2);
 
       var abdominalesNum2 = Math.floor(Math.random() * this.abdominales.length);
+      while (abdominalesNum2 == abdominalesNum) {
+        abdominalesNum2 = Math.floor(Math.random() * this.abdominales.length);
+      }
       this.abdominales2 = this.abdominales[abdominalesNum2];
       console.log(this.abdominales2);
 
       var brazosNum2 = Math.floor(Math.random() * this.brazos.length);
+      while (brazosNum2 == brazosNum) {
+        brazosNum2 = Math.floor(Math.random() * this.brazos.length);
+      }
       this.brazos2 = this.brazos[brazosNum2];
       console.log(this.brazos2);
 
